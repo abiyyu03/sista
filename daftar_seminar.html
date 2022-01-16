@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
+    <title>SISTA - Daftar Seminar</title>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+        <h2><a class="navbar-brand text-uppercase" href="/">Sista</a></h2>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="detail_jadwal.html">Jadwal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_peserta.html">Daftar Peserta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar_seminar.html">Daftar Seminar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid p-4">
+        <p>Pendaftaran seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari pembimbing TA</p>
+        <form action="" class="container-fluid mt-4">
+            <h3>Form Pendaftaran Seminar TA</h3>
+            <fieldset class="border p-4">
+                <!-- <legend>Form</legend> -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">NIM</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Nama</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Program Studi</label>
+                            <select class="form-control">
+                                <option value="sistem_informasi">Sistem Informasi</option>
+                                <option value="teknik_informatika">Teknik Informatika</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Tanggal Seminar</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Jam Seminar</label>
+                            <input type="time" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Ruangan</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Judul TA</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Seminar</label>
+                            <select class="form-control">
+                                <option value="proposal">Proposal</option>
+                                <option value="seminar_hasil">Seminar Hasil</option>
+                                <option value="seminar_akhir">Seminar Akhir</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Pembimbing</label>
+                            <select class="form-control">
+                                <option value="pak_sirojul">Sirojul Munir, S.SI, M.KOM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Penguji 1</label>
+                            <select class="form-control">
+                                <option value="pak_rio">Rio Ardiansyah, M.SI</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Penguji 2</label>
+                            <select class="form-control">
+                                <option value="pak_rio">Amalia Rahmah, M.T</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-lg btn-primary">Daftar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</html>
