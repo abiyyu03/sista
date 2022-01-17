@@ -278,7 +278,7 @@
             <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
-                  <h1 class="m-0">Dashboard</h1>
+                  <h1 class="m-0">Form Seminar/Sidang Mahasiswa</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-right">
@@ -295,7 +295,78 @@
           <section class="content">
             <div class="container-fluid">
               <!-- Small boxes (Stat box) -->
-              <h1>HALLO GUYS</h1>
+              <button type="submit" class="btn mb-4 btn-primary">Tambah Seminar baru</button>
+              <fieldset class="border p-4">
+                <!-- <legend>Form</legend> -->
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="">NIM</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Nama</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Program Studi</label>
+                      <select class="form-control">
+                        <option value="sistem_informasi">Sistem Informasi</option>
+                        <option value="teknik_informatika">Teknik Informatika</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Tanggal Seminar</label>
+                      <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Jam Seminar</label>
+                      <input type="time" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Ruangan</label>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="">Judul TA</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Seminar</label>
+                      <select class="form-control">
+                        <option value="proposal">Proposal</option>
+                        <option value="seminar_hasil">Seminar Hasil</option>
+                        <option value="seminar_akhir">Seminar Akhir</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Pembimbing</label>
+                      <select class="form-control">
+                        <option value="pak_sirojul">Sirojul Munir, S.SI, M.KOM</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Penguji 1</label>
+                      <select class="form-control">
+                        <option value="pak_rio">Rio Ardiansyah, M.SI</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="">Penguji 2</label>
+                      <select class="form-control">
+                        <option value="pak_rio">Amalia Rahmah, M.T</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-lg btn-success">Update</button>
+                  <button type="submit" class="btn btn-lg btn-danger">Delete</button>
+                </div>
+              </fieldset>
+              
             </div>
             <!-- /.card -->
           </section>
